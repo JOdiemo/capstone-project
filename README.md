@@ -1,11 +1,8 @@
 # My projects and about section 
 
-> This is my portfolio website. 
-> It contain my description, projects, skills and framework and my contacts.
-> It has a curtain menu incoporated
-> Use local storage to save user input.
+> This is the Fiirst Capstone project
 
-image.png
+
 
 ## Built With
 
@@ -15,7 +12,7 @@ image.png
 
 ## Project link
 
-[Project Link](https://JOdiemo.github.io/)
+[Project Link](https://github.com/JOdiemo/capstone-project/)
 
 
 ## Getting Started
@@ -27,7 +24,7 @@ To get a local copy, just follow the steps That I am going to mention bellow:
 ### Setup
 To get this project in your local machine, follow these steps:
 - Open terminal 
-- clone the repository :https://github.com/JOdiemo/popup-window/tree/preserve-data
+- clone the repository : https://github.com/JOdiemo/capstone-project/
 - Cd in the project folder
 - run the project in your browser
 
@@ -44,6 +41,9 @@ To get this project in your local machine, follow these steps:
 
 - GitHub: [@JOdiemo](https://github.com/JOdiemo)
 - LinkedIn: [@JorumOdiemo](https://www.linkedin.com/in/jorumodiemo/)
+
+### Designer
+-Cindy Shin in Behance.
 
 Please note that for this project it was supposed to be a par coding collaboration but i did not have a partner this week.
 ## 🤝 Contributing
