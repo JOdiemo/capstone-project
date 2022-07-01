@@ -13,4 +13,8 @@ function hideMenu() {
 
 // -----------Validate Form--------
 
-showMenu();
+const menurun = document.querySelector('navigation');
+
+menurun.addEventListener('click', () => {
+  showMenu();
+});
