@@ -1,0 +1,505 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+#topmenu {
+  display: inline;
+  padding-left: 10px;
+}
+
+.ab-text {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.imgyear {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+.logo {
+  color: white;
+  visibility: hidden;
+}
+
+#menu-list {
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  transform: translate(0, -1px);
+  text-decoration: underline;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#topmenu li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 10px;
+  font-size: 15px;
+  border: 1 solid black;
+  font-optical-sizing: white;
+  margin-right: 1rem;
+  float: left;
+}
+
+.bottom-line {
+  width: 3%;
+  border: #ec5242 solid 2px;
+  margin-left: 39rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  justify-self: center;
+}
+
+.menu-list1.active ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: left;
+}
+
+#topmenu li a {
+  text-decoration: none;
+  color: white;
+}
+
+#bg-img {
+  background-image: linear-gradient(to right, rgba(250, 251, 252, 0.9), rgba(250, 251, 252, 0.9)), url("./images/chuttersnap.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 100vw;
+}
+
+.churchlogo {
+  height: 2%;
+  width: 5vw;
+  padding-left: 0;
+}
+
+#header {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 150px;
+}
+
+#bg-parent {
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.header2 {
+  display: flex;
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 2%;
+  padding-right: 4%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list1 {
+  margin-left: -200%;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul {
+  display: none;
+}
+
+.menu-list1.active {
+  scale: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -0.1px;
+  top: -0.1px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+  background: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.navbar-collapse ul {
+  height: 100vh;
+}
+
+.menu-list1.active ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 4%;
+  margin-top: 80px;
+}
+
+#img-heading {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+#main-p {
+  margin-left: 20px;
+}
+
+#main-h {
+  margin-left: 20px;
+}
+
+#revivaldate,
+#revival-date {
+  font-size: 20px;
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: start;
+  font-weight: normal;
+}
+
+#revival-date1 {
+  font-size: 20px;
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: start;
+  font-weight: normal;
+}
+
+.thestory {
+  color: orange;
+  background-image: url("./images/chuttersnap.jpg");
+  background-size: cover;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 50px;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#program {
+  background-image: url(./images/main.jpg);
+  background-size: contain;
+  margin-top: 10000px;
+  padding-top: 1000px;
+  top: 0;
+  border: 1px solid red;
+}
+
+div .hover:hover {
+  border: 3px solid white;
+}
+
+#logo1 {
+  height: 80px;
+  width: 80px;
+}
+
+#menu li a:hover {
+  color: orange;
+}
+
+.navigation {
+  display: block;
+  z-index: 10;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+  cursor: pointer;
+}
+
+.navigation.active .bar {
+  background-color: #fff;
+}
+
+.navigation.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.navigation.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.navigation.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+#div2 {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #ec5242;
+  position: absolute;
+
+  /* left: 51.5%; */
+  margin-top: -2rem;
+}
+
+.menu-list1 .campaign {
+  border-color: #ec5242;
+  border: 5px solid red;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    margin-bottom: 100px;
+  }
+
+  .header1 {
+    display: none;
+  }
+
+  .churchlogo {
+    display: none;
+  }
+
+  /* speakers */
+
+  .name {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  #speakers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100vw;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .speaker-div {
+    display: grid;
+    grid-template-rows: 0.65fr 2fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem 3rem;
+    border: 3px solid blue;
+  }
+
+  #speakers img {
+    height: 10rem;
+    width: 10rem;
+    align-self: flex-start;
+    float: left;
+  }
+
+  .speaker-details {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  #div1 {
+    width: 2rem;
+    height: 0.3rem;
+    margin: 0 0 12px;
+    background-color: #d3d3d3;
+  }
+
+  .occupation {
+    color: #ec5242;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  #div2 {
+    width: 11%;
+    height: 0.2rem;
+    background-color: #ec5242;
+  }
+
+  #speaker-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+
+  #more-btn {
+    height: 5rem;
+    background-color: red;
+    width: 100%;
+  }
+
+  .partners {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #header {
+    margin-bottom: 100px;
+  }
+
+  #img-heading {
+    padding-left: 200px;
+    padding-top: 70px;
+  }
+
+  #main-p {
+    margin-left: 200px;
+  }
+
+  #revivaldate,
+  #revival-date {
+    margin-left: 160px;
+  }
+
+  #year h2 {
+    margin-left: 0;
+  }
+
+  div .hover {
+    min-height: 300px;
+  }
+
+  .navigation {
+    display: none;
+    cursor: pointer;
+    transition: ease-in;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  .menu-list1 {
+    display: block;
+    margin-right: 4%;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+
+  .menu-list1 ul {
+    gap: 12px;
+  }
+
+  .menu-list1 ul li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .menu-list1 li a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #000;
+    padding-right: 50px;
+  }
+
+  /* speakers */
+
+  .name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-top: 0.9rem;
+  }
+
+  #speakers {
+    padding: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 8vw;
+    margin: auto;
+    height: auto;
+  }
+
+  .speaker-div {
+    display: grid;
+    grid-template-columns: 0.6fr 1.3fr 0.6fr 1.3fr;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+
+  #speakers img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .speaker-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #div1 {
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0 0 12px;
+    background-color: #d3d3d3;
+  }
+
+  .occupation {
+    color: #ec5242;
+    font-style: italic;
+  }
+
+  #div2 {
+    width: 3%;
+    height: 0.2rem;
+    background-color: #ec5242;
+    position: absolute;
+    left: 47.2%;
+    margin-bottom: 41rem;
+  }
+
+  #speaker-title {
+    font-weight: bold;
+    font-size: 2rem;
+    align-self: center;
+    position: absolute;
+    left: 42%;
+    margin-bottom: 45rem;
+  }
+}
