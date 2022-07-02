@@ -41,6 +41,7 @@ To get this project in your local machine, follow these steps:
 
 - GitHub: [@JOdiemo](https://github.com/JOdiemo)
 - LinkedIn: [@JorumOdiemo](https://www.linkedin.com/in/jorumodiemo/)
+- intro video: https://drive.google.com/file/d/1mQ5cAfhPq8MFaBQ0n26e8F1Jxchpr7mc/view?usp=sharing
 
 ### Designer
 -Cindy Shin in Behance.
