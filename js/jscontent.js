@@ -1,94 +1,56 @@
-const speakers = [
+const speakerArray = [
   {
-
-    image: './images/photo1.jpg',
-    name: 'Rev. Rechal Parker',
-    para1: 'Teacher, Mentor, Evangelist, Wells Church.',
-    para2: `Having been in the ministry for more tha 30 years,
-    Rev. Parker is well known for being in the limelight when 
-    it comes to mentoring the young and leading them to Christ.
-    He is married with two children. 
-     `,
+    image: 'Images/photo1.jpg',
+    name: 'Rachel Edwards',
+    title: 'Senior Pastor',
+    description: 'A determined and enrgetic evangelist with nothing to loose in spreadinng the word. Great experience in evangelism',
   },
   {
-    image: './images/photo2.jpg',
-    name: 'Pst James Park',
-    para1: 'Theological Society of Kenya',
-    para2: `A well known academician with vast experience in eveangelism.
-    Well travelled and knowledgeable of various cultures. It has been a journey,
-    but he says the Lord has seen him through. He is a staunch believer of repentance. 
-     `,
+    image: 'Images/photo2.jpg',
+    name: 'Rev. Tom Bwickel',
+    title: 'Chief of Missons',
+    description: 'Hsving transversed the world in various capacity, Tom can move mountains when it comes to teaching the bible. Worth listening to him .',
   },
   {
-    image: './images/photo3.jpg',
-    name: 'Rita Martins',
-    para1: 'Internatonal School',
-    para2: `A founder of the Youth With a Mission evengelism group,
-    Martins has transversed the world educating the youth and mentoring them
-    on how to be more impactful in the society and how to make their lives better.
-     `,
+    image: 'Images/photo3.jpg',
+    name: 'Pst Grace Roth',
+    title: 'Youth Pastor',
+    description: 'Experienced with the younger generation. Undestands the millenials more than he undestands himself. Surely the youth are blessed to have such a pastor.',
   },
   {
-    image: './images/photo4.jpg',
-    name: 'Orlando Ewings',
-    para1: 'Grace Church',
-    para2: `Associate pastor of the Grace Church, he has been in ministry for over two decades.
-    Having risen from being a deacon to becoming a family ministry pastor and now associate pastor. He 
-    assiss the senor ministry in the admistration of the church.
-     `,
-  },
-
-  {
-    image: './images/photo5.jpg',
-    name: 'Bishop Gary Jones',
-    para1: 'St Josephs Ohio',
-    para2: `Has been a core contributor in the equilibrium of the Anglican Church.
-    An advocate of the homeless and veterans. He runs a kitchen to feed the less unfortunate in his community..
-     `,
+    image: 'Images/photo4.jpg',
+    name: 'Grace Geralds',
+    title: 'People Coach',
+    description: 'Has had a good laugh when it comes to matters of the family. Nothing can go away without it being resolved. The imposible is a mindset.',
   },
   {
-    image: './images/photo6.jpg',
-    name: 'James LaBron',
-    para1: 'New Life Inlernationa;',
-    para2: `Associate pastor of the Grace Church, he has been in ministry for over two decades.
-    Having risen from being a deacon to becoming a family ministry pastor and now associate pastor. He 
-    assiss the senor ministry in the admistration of the church.
-     `,
+    image: 'Images/photo5.jpg',
+    name: 'James Carter',
+    title: 'Bishop Emeritus',
+    description: 'Having served as a biship for over 15 years it was time to cool off in the mountais. Not for me, I believe we have the Lord to thank so spread the word. ',
+  },
+  {
+    image: 'Images/photo6.jpg',
+    name: 'Greg Labron',
+    title: 'Artist',
+    description: 'Uses music as a media of spreading the word. Winner of 5 grammy awards and nothing is on the way with Gods help. ',
   },
 ];
 
-const h4 = document.createElement('h4');
-h4.setAttribute('id', 'speaker-title');
-const div2 = document.createElement('div');
-div2.setAttribute('id', 'div2');
-h4.innerHTML = 'Featured Speakers';
-const containerDiv = document.createElement('div');
-containerDiv.setAttribute('class', 'speaker-div');
-containerDiv.append(h4, div2);
-const section = document.createElement('section');
-section.setAttribute('id', 'speakers');
-const main = document.querySelector('main');
-
-for (let i = 0; i <= speakers.length; i += 1) {
-  const h3 = document.createElement('h3');
-  h3.setAttribute('class', 'name');
-  h3.innerHTML += speakers[i].name;
-  const p = document.createElement('p');
-  p.setAttribute('class', 'occupation');
-  p.innerHTML += speakers[i].para1;
-  const img = document.createElement('img');
-  img.setAttribute('src', speakers[i].image);
-  img.setAttribute('alt', speakers[i].image);
-  const p1 = document.createElement('p');
-  p1.setAttribute('class', 'description');
-  p1.innerHTML = speakers[i].para2;
-  const span = document.createElement('span');
-  span.setAttribute('id', 'div1');
-
-  const div = document.createElement('div');
-  div.setAttribute('class', 'speaker-details');
-  div.append(h3, p, span, p1);
-  containerDiv.append(img, div);
-  section.append(containerDiv);
-  main.append(section);
-}
+const cardss = document.querySelector('.speaker-container');
+speakerArray.forEach((c) => {
+  const card = document.createElement('article');
+  card.innerHTML = (`
+  <div class="speaker-main">
+      <img class = "speaker-image" src="${c.image}" alt=" Image ">
+      <div class="speaker-right">
+          <h3> ${c.name}</h2>
+          <p><i>${c.title}</i></p>
+          <div class="guide_bar2"></div>
+          <div class="speaker-divider-menu"></div>
+          <p class="description">${c.description}</p>
+      </div>
+</div>
+  `);
+  cardss.appendChild(card);
+});

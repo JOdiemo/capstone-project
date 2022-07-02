@@ -1,256 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Glory Ministries</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revival in the City</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
-                
-  </head>
-  <body>
-    <main>
-    <header class="header1 flex-row bg-dark">
-      <div class="logo container-xxl p-0 m-0"><a href="index.html" class="logo">My Logo</a></div>
-      <div class="menu-list">
-          <ul class="d-flex flex-row" id="topmenu">
-            <li>
-              <a href=""><i class=" nav bi-facebook"></i></a>
-          </li>
-          <li>
-              <a href=""><i class="nav bi bi-twitter"></i></a>
-          </li>
-              
-              <li><a href="#" class="nav">English</a></li>
-              <li><a href="#" class="nav">MyPage</a></li>
-              <li><a href="#" class="nav">Layout</a></li>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<body>
+    <header>
+        <ul class="nav nav justify-content-end">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My page</a></li>
+            <li><a href="#">Logout</a></li>
           </ul>
+    </header>
+    <div class="top">
+        <div class="top1">
+            <img alt="logo" src="./images/churchlogo.jpg">
+            <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-   </header>
-
-   <header class="header2 bg-light">
-    <div class="logo1"><a href="index.html" class="logo1"><img src="./images/churchlogo.jpg" alt="Church Icon" class="churchlogo"></a></div>
-    <nav class="menu-list1">
-        <ul onclick = "hideMenu()">
-            <li><a href="index.html" class="nav">Home</a></li>
-            <li><a href= "about.html" class="nav">About</a></li>
-            <li><a href="#speakers" class="nav">Speakers</a></li>
-            <li><a href="#partners" class="nav">Partners</a></li>
-            <li class="campaign"><a href="#" class="nav border text-center">WC Campaign</a></li>
-
-        </ul>
-    </nav>
-    <div class="navigation"  onclick = "showMenu()">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
     </div>
- 
-</header>
-   
-     
-
-    <section class="header pt-0 p-3" id="header">
-        <div class="container-xxl" id="bg-parent">
-           <div class="row">
-            <div class="position-absolute shadow-lg " id="bg-img">
-                <div class=" align-items-end img-heading" id="img-heading">
-                    <h2 class="display-5 text-warning">
-                        "Revival in the City!"
-                    </h2><br><br>
-                    <h1 class="thestory">
-                      The Glory of the Lord <br>reigns here today! <br>2022
-                  </h1> 
+    <div class="main">
+        <div class="overlay">
+            <div class="menu-overlay" onclick = "showMenu()">
+                <div class="menu">
+                    <div class="login">Login</div>
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="about.html">about</a>
+                    <a class="menu-link" href="#">Join</a>
+                    <a class="menu-link" href="#">Sponsors</a>
+                    <a class="menu-link" href="#">Contact</a>
                 </div>
-                  <div class="p-3 border text-center bg-white col-md-5 text-center" id="main-p">
-                    <p class>Lorem Ipsum is simply dummy text of the printing and
-                       typesetting industry. Lorem Ipsum has been the industry's standard
-                        dummy text ever since the 1500s, when an unknown printer took a galley of
-                         type and scrambled it to make a type specimen book. </p>
-                         
-                          </div>
-                <div class="p-3 text-center bg-white col-md-5" id="main-h">
-                  <h2 class="display-5 fw-bold lead text-secondary" id="revival-date">
-                    2022.07.04.(MON) ~ 10(SUN)
-                  </h2>
-                  <h6 class="display-4 font-weight-lighter lead text-secondary" id="revivaldate">
-                    @Wells First Community Church.
-                  </h6>
-                  
-              </div>
             </div>
-           </div>
-        </div>        
-   
+            <div class="navigation"  onclick = "showMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+
+            <section class="intro">
+                <p class="hello">"REVIVAL IN THE CITY"</p>
+                <h1 class="main-title">Interdenominational Meeting to unite the world in Christ</h1>
+                <div class="intro-message">
+                    <p>The world at large is in need of a revival so as to joyously declare that the Lord is on the throne.
+                        We are bringing together christians from all walks of life just for this revival.</p>
+                </div>
+                <div class="intro-message2">
+                    <h2>2022.08.01(MON) ~ 07(SUN)</h2>
+                    <h3>Revival in the City 2022</h3>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="program">
+        <div class="programcover">
+            <h3>Main Program</h3>
+            <div class="program-list">
+                <div class="program1">
+                    <img alt="lecture" src="Images/program01.png">
+                    <h4>Schedule</h4>
+                    <p>Inspirational speakers from various countries about the messages of sharing and opening</p>
+                </div>
+                <div class="program1">
+                    <img alt="Exhibition" src="Images/program02.png">
+                    <h4>Workshop</h4>
+                    <p>Different worksops ranging from addiction to family issues</p>
+                </div>
+                <div class="program1">
+                    <img alt="Forum" src="Images/program03.png">
+                    <h4>Forum</h4>
+                    <p>Have the time to share your thoughts and opinions with experts for each topic</p>
+                </div>
+                <div class="program1">
+                    <img alt="Workshop" src="Images/program04.png">
+                    <h4>One-on-One</h4>
+                    <p>Talk to mentors on an individual basis and get prayer partners while at it.</p>
+                </div>
+                <div class="program1">
+                    <img alt="CC Ignite" src="Images/program05.png">
+                    <h4>CC Ignite</h4>
+                    <p>CC Ignite are a major attender of the revival interact with them there.</p>
+                </div>
+            </div>
+            <p class="join1">SEE THE WHOLE PROGRAM</p>
+            <div class="join">Join Revival in the City 2022</div>
+        </div>
+    </section>
+    <section id="speakers">
+        <h2>Featured Members</h2>
+        <div class="guide_bar"></div>
+        <div class="speaker-container"></div>
     </section>
 
-
-    
-<section class="m-auto pt-5" id="program">
-    <div class="container-fluid">
-        <div class="row justify-content-around g-0">
-            <div class="col text-center">
-                <h2 class="h3 text-light pt-3">
-                    Main Program</h2>
-
-                    <div class="text-center d-flex fw-bolder justify-content-center">
-                    
-                    </div>
-                
-            </div>
-            
-        </div>
-        <div class="row pt-5">
-            
-            <div class="col-md bg w-100">
-                <div class="row justify-content-center align-items-center bg-secondary opacity-50 p-4 m-1  mb-3  hover">
-                    <div class="col">
-                       <h2 class="h4 text-warning">
-                        <i class="bi bi-clock-fill">Timings</i> 
-                       </h2>
-                       <div class="d-none col-md-inline">
-                        <h2 class="h4 text-warning">
-                            <i class="bi bi-clock-fill"></i>
-                            <br>
-                           Life style
-                           </h2>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <p class="text-light text-center">Time 5.30 pm - 8.00pm Daily</p>
-                    </div>
+    <section class="Partners container">
+      <div class="partnercover">
+          <h3>Partners</h3>
+          <div class="partner-list">
+              <div class="partner1">
+                  <img alt="partner" src="Images/church1.png">
                 </div>
-                </div>
-
-            <div class="col-md bg">
-                <div class="row justify-content-center align-items-center bg-secondary opacity-75 p-4 m-1  mb-3 hover">
-                    <div class="col">
-                       <h2 class="h4 text-warning">
-                        <i class="bi bi-bar-chart-steps"></i> Move up
-                       </h2>
-                      
-                    
-                    </div>
-                    <div class="col">
-                        <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, id.</p>
-                    </div>
-                </div>
-                </div>
-
-
-            <div class="col-md bg">
-                <div class="row justify-content-center align-items-center bg-secondary opacity-75 p-4 m-1 mb-3 hover">
-                    <div class="col">
-                       <h2 class="h4 text-warning">
-                        <i class="bi bi-brightness-alt-high-fill"></i> Shine 
-                       </h2>
-                      
-                    
-                    </div>
-                    <div class="col">
-                        <p class="text-light text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi!</p>
-                    </div>
-                </div>
-                </div>
-
-
-            <div class="col-md bg">
-                <div class="row justify-content-center align-items-center bg-secondary opacity-75 p-4 m-1  mb-3  hover">
-                    <div class="col">
-                       <h2 class="h4 text-warning">
-                        <i class="bi bi-calendar2-date-fill"></i> Sessions
-                       </h2>
-                      
-                 
-                    </div>
-                    <div class="col">
-                        <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium</p>
-                    </div>
-                </div>
-                </div>
-
-
-            <div class="col-md bg">
-                <div class="row justify-content-center align-items-center bg-secondary opacity-75 p-4 m-1  mb-3 hover">
-                    <div class="col ">
-                       <h2 class="h4 text-warning">
-                        <i class="bi bi-emoji-sunglasses"></i> Be Boss 
-                       </h2>
-                      
-                   
-                    </div>
-                    <div class="col">
-                        <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsa.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            
-        </div>
-
-</section>
-
-
-</main>
-
-<footer class="partners d-flex bg-dark" id="partners">
-  <div class="container-fluid d-flex justify-content-center w-75">
-      
-   <div class="row p-3">
-     <h2 class="partner-h text-center text-light pt-3">Partners</h2>
-    <br><br><br><br>
-
-     <div class="col-md bg">
-      <div class="row justify-content-center align-items-center opacity-75 p-4 m-1  mb-3 hover">
-        <img src="./images/church4.png" alt="image" width="250" height="150">
-      </div>
-      </div>
-
-      <div class="col-md bg">
-        <div class="row justify-content-center align-items-center opacity-75 p-4 m-1  mb-3 hover">
-          <img src="./images/church3.png" alt="image" width="250" height="150">
-        </div>
-        </div>
-        <div class="col-md bg">
-          <div class="row justify-content-center align-items-center  opacity-75 p-4 m-1  mb-3 hover">
-            <img src="./images/church1.png" alt="image" width="250" height="150">
+              <div class="partner1">
+                  <img alt="partner" src="Images/church2.png">
+              </div>
+              <div class="partner1">
+                  <img alt="partner" src="Images/church3.png">
+              </div>
+              <div class="partner1">
+                  <img alt="partner" src="Images/church4.png">
+              </div>
+            </div> 
           </div>
-          </div>
-          <div class="col-md bg">
-            <div class="row justify-content-center align-items-center  opacity-75 p-4 m-1  mb-3 hover">
-              <img src="./images/church2.png" alt="image" width="250" height="150">
-            </div>
-            </div>
+  </section>
     
-   </div>
-      
- </div>
-
-</footer>
-
-<footer class="d-flex mt-5" id="endnote">
-  <div class="container-fluid d-flex justify-content-center w-75">
-      
-    <div class="row p-3">
-      <div class="col col-sm-12 d-flex gap-5 bg-light rounded p-4">
-        <p class="font-weight-bold p3">CHRIS TECHN's <br>INCOPORATED</p>
-        <div>
-            <h5>Lorem, ipsum </h5>
-            <p class="para1 fst-italic text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, adipisci.</p>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rem sunt nemo repellendus accusantium earum soluta incidunt illum facere ipsum itaque.</p>
-         </div>
-      </div>
-      </div>
-    </div>
-   
-
-  
-</footer>
-  <script src="./js/menu.js"></script>
-  <script src="./js/jscontent.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    <footer>
+        <div class="copyright">
+            <p>@2022 All rights reserved</p>
+            <p>This is a production of Wells Church in collaboration with interdenominational Society</p>
+        </div>
+    </footer>
+    <script  src="js/menu.js" ></script>
+    <script  src="js/jscontent.js" ></script>
+    
+</body>
 </html>
