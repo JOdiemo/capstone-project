@@ -540,7 +540,7 @@ footer {
     gap: 1%;
     margin: 6% 0.5%;
   }
-  
+
   #partner-list img {
     margin-top: 50px;
     width: 300px;
@@ -599,7 +599,7 @@ footer {
   #speakers {
     margin-bottom: 150px;
   }
-  
+
   .speaker-main {
     display: flex;
     width: 100%;
@@ -709,14 +709,6 @@ footer {
     color: #fff;
     transform: scale(1.01, 1);
   }
-  
-  .logo2 {
-    width: 40%;
-    margin: 30%;
-    background-image: url("Images/church2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 
   .menu-link {
     align-items: center;
@@ -724,6 +716,14 @@ footer {
     line-height: 1.1;
     font-size: 6vw;
     color: #272a31;
+  }
+
+  .logo2 {
+    width: 40%;
+    margin: 30%;
+    background-image: url("Images/church2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   footer {

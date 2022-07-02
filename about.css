@@ -93,26 +93,32 @@
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
   height: 200px;
   width: 100%;
   background: rgba(14, 6, 6, 0.6);
   background-image: url("Images/h-back.jpg");
   background-size: cover;
   overflow: hidden;
+  text-align: center;
+  border: yellow;
 }
 
 .partner-list {
+  display: flex;
   margin: -24px;
   width: 150%;
   height: 120%;
   background: rgba(14, 6, 6, 0.6);
   background-size: cover;
+  align-items: center;
 }
 
 .copyright {
+  display: block;
   text-align: center;
   align-content: center;
-  padding: 4%;
 }
 
 .copyright p {
