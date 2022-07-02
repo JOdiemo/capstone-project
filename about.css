@@ -179,7 +179,7 @@ footer {
     justify-content: space-between;
     gap: 50%;
     width: 100%;
-    height: 100wh;
+    height: 100%;
     margin: 40px 12px;
   }
 
@@ -189,4 +189,3 @@ footer {
     padding-bottom: 20px;
   }
 }
-
