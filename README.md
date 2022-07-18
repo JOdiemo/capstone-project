@@ -1,57 +1,53 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# My projects and about section
 
-# Project Name
+> This is the Fiirst Capstone project
 
-> Description the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+-javascript
 
-## Live Demo (if available)
+## Project link
 
-[Live Demo Link](https://livedemo.com)
+[Project Link](https://github.com/JOdiemo/capstone-project/)
+[Live Link](https://jodiemo.github.io/capstone-project/)
+intro video: https://drive.google.com/file/d/1mQ5cAfhPq8MFaBQ0n26e8F1Jxchpr7mc/view?usp=sharing
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy, just follow the steps That I am going to mention bellow:
 
 ### Prerequisites
 
+
 ### Setup
+To get this project in your local machine, follow these steps:
+- Open terminal
+- clone the repository : https://github.com/JOdiemo/capstone-project/
+- Cd in the project folder
+- run the project in your browser
 
-### Install
+### install
+ - run npm install to install the required linters
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+ ### tests
+ - run the project in the browsers
+ - use google tool to inspect and check in mobile version.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@JOdiemo](https://github.com/JOdiemo)
+- LinkedIn: [@JorumOdiemo](https://www.linkedin.com/in/jorumodiemo/)
 
-👤 **Author2**
+### Designer
+-Cindy Shin in Behance.
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+Please note that for this project it was supposed to be a par coding collaboration but i did not have a partner this week.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -61,12 +57,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
